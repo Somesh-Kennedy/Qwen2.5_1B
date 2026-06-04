@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local Data and Fine-Tuning Outputs
+qlora-1b-fine-tuned/
+lora-1b-fine-tuned/
+qwen2.5-1.5b-alpaca-fused/
+
+# Block large weights files globally
+*.bin
+*.safetensors
+*.pt
+*.pth
