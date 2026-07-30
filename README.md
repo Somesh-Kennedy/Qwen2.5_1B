@@ -1,4 +1,4 @@
-# Qwen2.5-1.5B LLM Instruction Fine-Tuning Pipeline
+# Qwen2.5-1.5B LLM Instruction Fine-Tuning (PEFT) Pipeline
 
 An end-to-end, production-grade pipeline to parameter-efficiently fine-tune **Qwen2.5-1.5B-Instruct** using Low-Rank Adaptation (LoRA) on the Alpaca dataset. This repository contains the complete engineering workflow, including data preprocessing, stable memory-optimized training, local inference validation, and final adapter weight fusion.
 
