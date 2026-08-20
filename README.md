@@ -12,7 +12,7 @@ The fine-tuned adapter weights have been successfully merged into the base model
 ---
 
 ## 🛠️ Project Architecture & Layout
-This project is engineered to run deterministically and safely on a single local GPU setup by mitigating common Windows multi-processing and out-of-memory overheads.
+
 
 * `finetuning.py`: The core training pipeline utilizing Hugging Face's `SFTTrainer` configured for standard half-precision (`Float16`) matrix tracking.
 * `merge_model.py`: An optimization script that mathematically fuses the learned LoRA delta weights permanently back into the underlying base model layers.
